@@ -8,10 +8,31 @@
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script> -->
+
+    <script type="text/javascript">
+      window.$ = window.jQuery = require(__dirname+'/js/lib/jquery/dist/jquery.min.js');
+    </script>
+
+    <!-- build:js js/production.min.js -->
+    <script type="text/javascript" src="js/emily/kanban/LocalStorage.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/Board.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/Column.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/Ticket.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/LocalStorageHandle.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/Render.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/ErrMsg.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/Anime.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/DAndD.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/BgImgAction.js"></script>
+    <script type="text/javascript" src="js/emily/kanban/TicketHandler.js"></script>
+    <!-- endbuild -->
+
+
 
 </head>
 <body>
+    <script type="text/javascript" src="app.js"></script>
     <div id="wrap">
         <div id="board_container">
         </div>
@@ -50,22 +71,5 @@
         </div>
 
     </div>
-
-    <!-- build:js js/production.min.js -->
-    <script type="text/javascript" src="js/emily/kanban/LocalStorage.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/Board.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/Column.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/Ticket.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/LocalStorageHandle.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/Render.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/ErrMsg.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/Anime.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/DAndD.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/BgImgAction.js"></script>
-    <script type="text/javascript" src="js/emily/kanban/TicketHandler.js"></script>
-    <!-- endbuild -->
-
-    <script type="text/javascript" src="app.js"></script>
-
 </body>
 </html>

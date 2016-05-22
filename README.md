@@ -1,3 +1,12 @@
+# nodejs electron Kanban Board
+try to run it with less changes
+
+#### ToDos
+  * use a free downloadable font (.css .tff .woff) or integrating it in bower
+  * change the css styles controls should be always fixed down on the side
+  * electron can save you Data now in a file or talk to a DB with any node modul ;-)
+  * check all is working like in Live Demo 
+
 # Kanban Board
 
 ####A beautiful minimal agile development tool for anything.
