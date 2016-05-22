@@ -7,6 +7,8 @@ try to run it with less changes
   * electron can save you Data now in a file or talk to a DB with any node modul ;-)
   * check all is working like in Live Demo 
 
+![alt tag](https://raw.githubusercontent.com/itbsStefan/kanban_board/master/preview.png)
+
 # Kanban Board
 
 ####A beautiful minimal agile development tool for anything.
